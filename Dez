@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>...</title>
+<style>
+body{
+background:black;
+color:white;
+font-family:monospace;
+text-align:center;
+margin-top:25%;
+}
+</style>
+</head>
+
+<body>
+
+<p>Loading...</p>
+
+<script>
+setTimeout(()=>{
+document.body.innerHTML="<h2>Why are you here?</h2>";
+},3000)
+
+setTimeout(()=>{
+document.body.innerHTML="<h1>Leave.</h1>";
+},6000)
+
+setTimeout(()=>{
+document.body.innerHTML="<h1>I can see you.</h1>";
+},9000)
+
+setTimeout(()=>{
+alert("Don't look behind you.");
+},11000)
+</script>
+
+</body>
+</html>
